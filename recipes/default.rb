@@ -17,3 +17,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
+
+include_recipe 'git'
+
+deploy '/var/apps/ampelfreude' do
+  repo 'git://github.com/betterplace/ampelfreude.git'
+  revision 'master'
+end
