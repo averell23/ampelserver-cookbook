@@ -26,6 +26,7 @@ package 'ruby1.9.1'
 package 'libxml2-dev'
 package 'libxslt1-dev'
 package 'sispmctl' # The tool to control the power bar
+package 'mpg321'
 
 gem_package 'bundler'
 
