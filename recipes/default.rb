@@ -22,7 +22,7 @@ include_recipe 'git'
 include_recipe 'build-essential'
 
 package 'ruby1.9.1'
-package 'rubygems'
+# package 'rubygems'
 package 'libxml2-dev'
 package 'libxslt1-dev'
 package 'sispmctl' # The tool to control the power bar
