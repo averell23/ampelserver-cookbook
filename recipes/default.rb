@@ -50,7 +50,13 @@ cookbook_file '/etc/init/ampelfreude.conf' do
   mode '0644'
 end
 
+cookbook_file '/etc/init/ampelfreude' do
+  source 'ampelfreude'
+  owner 'root'
+  group 'root'
+  mode '0644'
+end
+
 service 'ampelfreude' do
   action [:start, :enable]
-  provider Chef::Provider::Service::Upstart
 end
