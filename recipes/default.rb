@@ -54,7 +54,7 @@ cookbook_file '/etc/init.d/ampelfreude' do
   source 'ampelfreude.sh'
   owner 'root'
   group 'root'
-  mode '0644'
+  mode '0755'
 end
 
 service 'ampelfreude' do
