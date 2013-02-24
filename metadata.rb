@@ -1,6 +1,6 @@
 name             'ampelserver'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Daniel Hahn'
+maintainer_email 'averell-newgods-org'
 license          'GNU Public License 3.0'
 description      'Installs/Configures ampelserver'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
@@ -8,3 +8,4 @@ version          '0.1.0'
 
 
 depends 'git'
+depends 'build-essential'
