@@ -50,7 +50,7 @@ cookbook_file '/etc/init/ampelfreude.conf' do
   mode '0644'
 end
 
-cookbook_file '/etc/init/ampelfreude' do
+cookbook_file '/etc/init.d/ampelfreude' do
   source 'ampelfreude.sh'
   owner 'root'
   group 'root'
