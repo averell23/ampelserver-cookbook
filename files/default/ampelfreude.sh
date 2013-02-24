@@ -9,7 +9,8 @@
 # Short-Description: Start NTP daemon
 ### END INIT INFO
 
-PATH=/sbin:/bin:/usr/sbin:/usr/bin
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
+HOME=/var/apps/ampelfreude/current
 
 . /lib/lsb/init-functions
 
